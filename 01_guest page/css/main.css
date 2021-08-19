@@ -1,0 +1,169 @@
+@charset "utf-8";
+main {
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 15px 20px 20px 20px;
+}
+
+.container {
+  order: 1;
+  max-width: 800px;
+}
+
+form {
+  padding: 15px;
+  border-right: 2px solid #292828;
+  border-radius: 10px;
+  background-color: #e2ffd9;
+  margin-top: 10px;
+}
+
+.form-group {
+  padding: 10px 0;
+}
+
+label {
+  padding-left: 10px;
+  font-size: 1.5em;
+}
+
+input,
+textarea {
+  font-size: 1.3em;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px 0;
+  max-height: 200px;
+}
+
+input[name="name"],
+input[name="email"],
+input[name="captcha"],
+textarea {
+  border: 3px solid silver;
+}
+
+input:focus,
+textarea:focus {
+  border: 3px solid #3a9942;
+}
+
+#captch {
+  display: none;
+}
+
+.label {
+  font-size: 20px;
+}
+
+
+/* for info */
+
+#info {
+  width: 100%;
+  overflow: auto;
+}
+
+.table {
+  width: 100%;
+  background-color: #d8f5eb;
+}
+
+thead tr {
+  background-color: #9fff44;
+}
+
+th {
+  font-weight: bolder;
+}
+
+td,
+th {
+  vertical-align: middle;
+  border: 1px solid silver;
+  padding: 5px;
+  font-size: 20px;
+}
+
+tbody tr:hover {
+  background-color: #f0fcf8;
+}
+
+tr td:nth-child(1) {
+  font-weight: bold;
+}
+
+@media (max-width: 987px) and (min-width: 786px) {
+  .container {
+    width: 100%;
+  }
+  .hicon-index,
+  .hicon-admin {
+    background-size: 30px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 787px) and (min-width: 555px) {
+  .container {
+    width: 100%;
+  }
+  .table {
+    font-size: 12px;
+  }
+  .hicon-index,
+  .hicon-admin {
+    background-size: 30px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 556px) and (min-width: 320px) {
+  .container {
+    width: 100%;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  .hicon-index,
+  .hicon-admin {
+    background-size: 30px;
+    height: 30px;
+  }
+  .table {
+    font-size: 8px;
+  }
+  td {
+    padding: 2px;
+  }
+}
+
+@media (max-width: 321px) {
+  .container {
+    width: 100%;
+  }
+  h1 {
+    font-size: 18px;
+  }
+  .hicon-index,
+  .hicon-admin {
+    background-size: 30px;
+    height: 30px;
+  }
+  .table {
+    font-size: 8px;
+  }
+  h2 {
+    font-size: 12px;
+    font-weight: 300;
+    padding: 5px;
+  }
+  h3 {
+    padding-right: 10px;
+    font-weight: 300;
+    width: 70px;
+  }
+}

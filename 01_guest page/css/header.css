@@ -1,0 +1,261 @@
+@charset "utf-8";
+@font-face {
+  font-family: "Wiguru";
+  src: url("./fonts/wiguru.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+body {
+  background: linear-gradient(90deg, #cfecd0, #a0cea7, #9ec0db);
+}
+
+.auth {
+  font-size: 18px;
+  padding-left: 20px;
+}
+
+.spanRed {
+  color: #c70000;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  background: radial-gradient(ellipse 100% 100% at 50% 50%, hsla(34deg, 38%, 98%, 1) 25%, hsla(34deg, 38%, 98%, 0) 75%);
+}
+
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Wiguru, Arial, Helvetica, sans-serif;
+  color: #141414;
+}
+
+.log {
+  display: flex;
+  overflow: hidden;
+  padding-left: 20px;
+}
+
+.logo3 {
+  width: 110px;
+}
+
+.gi {
+  width: 50px;
+  height: 70px;
+  border-top: 20px solid #ff4e19;
+  border-bottom: 5px solid #3b3b3b;
+  border-left: 20px solid #ff4e19;
+}
+
+.gi h5 {
+  position: absolute;
+  padding-top: 2px;
+  padding-left: 8px;
+  text-align: right;
+  font-size: 45px;
+  font-weight: 600;
+  color: #7a7a7a;
+  font-family: "Wiguru";
+}
+
+.nav {
+  overflow: hidden;
+  width: calc(100% - 150px);
+}
+
+.navbar {
+  display: flex;
+  overflow: hidden;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-bottom: 2px solid black;
+  animation-duration: 0.5s;
+  animation-name: x;
+}
+
+.blog-nav {
+  display: flex;
+  overflow: hidden;
+  animation-duration: 1s;
+  animation-name: a;
+}
+
+.navbar .blog-nav .blog-nav-item {
+  font-family: Wiguru, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: black;
+  text-align: center;
+  padding: 0 15px 5px;
+  text-decoration: none;
+}
+
+.navbar li a {
+  text-decoration: none;
+}
+
+.blog-nav-item:hover {
+  cursor: pointer;
+  background-color: #cce6fd;
+}
+
+.article {
+  overflow: hidden;
+  line-height: 40px;
+  font-family: Wiguru, Arial, Helvetica, sans-serif;
+  padding: 10px 0;
+}
+
+.article h1 {
+  color: #7a7a7a;
+  padding-left: 10px;
+  font-size: 32px;
+  font-weight: bold;
+  font-style: italic;
+  animation-duration: 3s;
+  animation-name: slidein;
+  font-family: "Wiguru";
+}
+
+h6 {
+  padding-top: 5px;
+  font-size: 14px;
+}
+
+@keyframes a {
+  0% {
+    transform: translateY(300%);
+  }
+  50% {
+    transform: translateY(300%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes x {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slidein {
+  0% {
+    transform: translateY(-180%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.hicon-index {
+  background-image: url("../img/headers/home1.svg");
+}
+
+.hicon-admin {
+  background-image: url("../img/headers/settings.svg");
+}
+
+.hicon-index,
+.hicon-admin {
+  display: block;
+  background-repeat: no-repeat;
+  background-position-y: top;
+  background-position-x: center;
+  background-size: 50px;
+  height: 50px;
+}
+
+.navbar .blog-nav .active {
+  color: #ddbe86;
+  background-color: #505050;
+}
+
+.nav ul li .active {
+  color: #ddbe86;
+}
+
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  width: 100%;
+  overflow: auto;
+  justify-content: center;
+  padding: 20px 0;
+  background: radial-gradient(ellipse 100% 100% at 50% 50%, hsla(34deg, 38%, 98%, 1) 25%, hsla(34deg, 38%, 98%, 0) 75%);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+}
+
+.footerli {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid silver;
+}
+
+h2 {
+  font-size: 22px;
+  text-align: center;
+  font-weight: 600;
+  padding: 5px 10px;
+  border-bottom: 1px solid silver;
+}
+
+h3 {
+  padding-right: 20px;
+  font-weight: 600;
+  text-align: right;
+  width: 120px;
+}
+
+.footerli p {
+  display: block;
+  text-align: left;
+}
+
+.backtotop {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+  border: 2px solid silver;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: #e0e0e0;
+  background-color: #04b913;
+}
+
+.orange {
+  background-color: #ff5100;
+}
+
+.backtotop:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  background-color: #4abb53;
+}
+
+.orange:hover {
+  background-color: #ff6c29;
+}
+
+.backtotop-img {
+  width: 50px;
+}
