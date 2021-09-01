@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="132.31813mm"
+   height="132.29164mm"
+   viewBox="0 0 132.31813 132.29164"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="arm4.svg">
+  <defs
+     id="defs2">
+    <rect
+       x="69.018204"
+       y="-60.538219"
+       width="485.27628"
+       height="137.27231"
+       id="rect892" />
+    <rect
+       x="58.964287"
+       y="26.836309"
+       width="291.79761"
+       height="46.49107"
+       id="rect883" />
+    <rect
+       x="313.23239"
+       y="-28.939947"
+       width="125.97389"
+       height="35.749348"
+       id="rect1161" />
+    <rect
+       x="139.5927"
+       y="-68.093994"
+       width="327.70236"
+       height="489.4256"
+       id="rect1155" />
+    <rect
+       x="-8.5117493"
+       y="-102.14099"
+       width="804.36029"
+       height="98.73629"
+       id="rect955" />
+    <rect
+       x="66.391647"
+       y="-80.010445"
+       width="786.48566"
+       height="77.456917"
+       id="rect949" />
+    <rect
+       x="427.28983"
+       y="224.71017"
+       width="0.85117495"
+       height="28.939947"
+       id="rect937" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="235.5043"
+     inkscape:cy="248.0747"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g879"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1350"
+     inkscape:window-height="1033"
+     inkscape:window-x="145"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-0.21354656,0.07559715)">
+    <g
+       id="g879"
+       transform="matrix(0.26458333,0,0,0.26458333,16.00872,67.377902)">
+      <g
+         id="g922"
+         transform="translate(1.7023498,-326.6423)">
+	<g
+   id="g916"
+   transform="rotate(-0.18386946,320.68366,321.88685)">
+		<path
+   class="st0"
+   d="m 438.70066,321.27628 c 0,138 -112,250 -250,250 -138.1,0 -250.099997,-111.9 -250.099997,-250 0,-138.1 111.999997,-249.999868 250.099997,-249.999868 138,0 250,111.899868 250,249.999868"
+   id="path884"
+   style="fill:#ff5555" />
+
+		<path
+   class="st1"
+   d="m 408.71119,320.77697 c 0,-121.63716 -98.64571,-220.43823 -220.28289,-220.43823 -121.792517,0 -220.438234,98.64571 -220.438234,220.43823 0,121.63718 98.490382,220.2829 220.438234,220.2829 121.63718,0 220.28289,-98.64572 220.28289,-220.2829"
+   id="path886"
+   style="fill:#ffe6d5;stroke-width:1.55348" />
+
+		<path
+   class="st1"
+   d="M 72.3342,520.98026 C -38.237399,456.89626 -76.031323,314.90316 -11.997467,204.41807 52.0364,93.933105 194.02949,56.139194 304.6011,120.22306 c 110.48509,64.03386 148.279,206.02696 84.24516,316.51205 -35.15605,60.65881 -93.81101,99.40662 -157.84921,111.42164 -52.60216,9.86936 -108.83655,1.70133 -158.66285,-27.17649 M 307.97452,114.20309 C 256.24969,84.225062 197.81637,75.92067 143.26916,86.470082 77.83547,99.124946 17.99388,138.91013 -17.967287,200.95814 -83.906619,314.73096 -44.985063,460.96061 68.78775,526.89993 182.56058,592.83927 328.82662,554.05438 394.81608,440.19505 460.75541,326.42222 421.74735,180.14241 307.97452,114.20309"
+   id="path888"
+   sodipodi:nodetypes="cssssccssssc" />
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	</g>
+
+	
+	
+</g>
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:48px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';letter-spacing:0px;word-spacing:0px;baseline-shift:baseline;white-space:pre;fill:#ffffff;fill-opacity:1;stroke-width:0.999646;stroke-miterlimit:4;stroke-dasharray:none"
+         id="text933"
+         x="34.329948"
+         y="31.281771"><tspan
+           id="tspan931"
+           rotate="0"
+           style="font-size:48px;fill:#000000" /></text>
+      <text
+         xml:space="preserve"
+         id="text935"
+         style="font-weight:bold;font-size:22px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect937);" />
+      <text
+         xml:space="preserve"
+         id="text947"
+         style="font-weight:bold;font-size:22px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect949);" />
+      <text
+         xml:space="preserve"
+         id="text1153"
+         style="font-weight:bold;font-size:130px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect1155);fill:#0000ff;"
+         transform="matrix(1.3354687,0,0,2.682559,-182.66451,-13.274716)"><tspan
+           x="139.5918"
+           y="49.004325"><tspan
+             style="shape-inside:url(#rect1155)">АРМ</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         id="text1159"
+         style="font-weight:bold;font-size:22px;line-height:1.25;font-family:Arial;-inkscape-font-specification:'Arial Bold';white-space:pre;shape-inside:url(#rect1161);" />
+    </g>
+  </g>
+  <style
+     type="text/css"
+     id="style882">
+	.st0{fill:#D4073A;}
+	.st1{fill:#FFFFFF;}
+	.st2{fill:#FFFCE3;}
+	.st3{fill:#F6E5CC;}
+	.st4{fill:#004287;}
+</style>
+</svg>

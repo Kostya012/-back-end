@@ -1,0 +1,37 @@
+@charset "utf-8";
+.p-title,
+.p2-title {
+  font-family: Kelson Sans RU, Arial, Helvetica, sans-serif;
+  color: darkred;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  margin: 15px 5px;
+}
+
+.p2-title {
+  font-size: 28px;
+}
+
+#itemHeader {
+  background-image: url("../img/railway-GPS-UZ.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: contain;
+  height: 250px;
+  margin: 10px;
+}
+
+.styleBold {
+  color: darkblue;
+  font-weight: bold;
+}
+
+.downloadInstr {
+  display: block;
+  margin-top: 15px;
+  padding-top: 5px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #d8f5eb;
+}

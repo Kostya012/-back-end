@@ -1,0 +1,549 @@
+@charset "utf-8";
+main {
+  display: flex;
+  flex-basis: 100%;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 100%;
+}
+
+#birth {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 100%;
+  opacity: 0.8;
+  margin-top: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: top;
+  background-size: 900px;
+}
+
+.header-birth {
+  height: 150px;
+  transition: all 1s ease;
+  -ms-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -webkit-transition: all 0.6s ease;
+}
+
+.header-birth .header-p {
+  transition: all 1s ease;
+  -ms-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -webkit-transition: all 0.6s ease;
+  text-align: center;
+  color: red;
+  text-shadow: white 1px 1px 0, white -1px -1px 0, white -1px 1px 0, white 1px -1px 0;
+  font-size: 42px;
+  font-weight: bold;
+}
+
+#wishes {
+  display: none;
+  height: 500px;
+  padding-top: 10px;
+  font-size: 28px;
+  text-align: center;
+}
+
+#birth #wishes p {
+  margin: 0;
+  font-size: 25px;
+  text-align: center;
+  text-shadow: white 1px 1px 0, white -1px -1px 0, white -1px 1px 0, white 1px -1px 0;
+}
+
+.rightText {
+  text-align: left;
+  color: #ff3131;
+  text-shadow: white 1px 1px 0, white -1px -1px 0, white -1px 1px 0, white 1px -1px 0;
+  font-size: 25px;
+}
+
+h4 {
+  text-align: center;
+  background-color: #ffd900;
+  background-color: #02db14;
+  background-color: #3a9942;
+  color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 5px 15px;
+  font-size: 32px;
+}
+
+.label {
+  font-size: 20px;
+}
+
+.month {
+  font-weight: bold;
+  background-color: white;
+  border-radius: 5px;
+  padding: 0 10px;
+  color: #ff3131;
+}
+
+.dayBirth,
+.nameBirth {
+  color: #ff3131;
+  font-size: 34px;
+  background-color: #c5eeff;
+  border-radius: 5px;
+}
+
+.nameBirth {
+  padding: 0 15px;
+  font-family: Kelson Sans RU, Arial, Helvetica, sans-serif;
+}
+
+.item:nth-child(even) .nameBirth {
+  font-style: italic;
+}
+
+.container {
+  width: 900px;
+  padding-right: 0;
+}
+
+.item {
+  background-repeat: repeat-x;
+  border-radius: 5px;
+  background-color: aqua;
+  border-bottom: 2px solid silver;
+  padding: 2px 20px;
+  display: flex;
+  flex-basis: 100%;
+  justify-content: center;
+  align-items: center;
+  --stripe: #c5eeff;
+  --bg: #ffb5b5;
+  background: linear-gradient(135deg, var(--bg) 25%, transparent 25%) -50px 0,
+    linear-gradient(225deg, var(--bg) 25%, transparent 25%) -50px 0,
+    linear-gradient(315deg, var(--bg) 25%, transparent 25%), linear-gradient(45deg, var(--bg) 25%, transparent 25%);
+  background-size: 35px 35px;
+  background-color: var(--stripe);
+  margin-bottom: 5px;
+}
+
+.item:hover {
+  background-color: #9dffff;
+}
+
+.present {
+  flex-basis: 5%;
+}
+
+.name {
+  font-size: 32px;
+  font-weight: 600;
+  flex-basis: 95%;
+}
+
+/* Style for calendar */
+
+#calendar2 {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100%;
+  line-height: 1.2em;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-bottom: 15px;
+  background: repeating-linear-gradient(
+      -45deg,
+      transparent,
+      transparent 1em,
+      rgba(127, 215, 245, 0.4) 0,
+      rgba(127, 215, 245, 0.1) 2em,
+      transparent 0,
+      transparent 1em,
+      rgba(127, 215, 245, 0.3) 0,
+      rgba(127, 215, 245, 0.2) 4em,
+      transparent 0,
+      transparent 1em,
+      rgba(192, 235, 250, 0.6) 0,
+      rgba(192, 235, 250, 0.2) 2em
+    ),
+    repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 1em,
+      rgba(127, 215, 245, 0.4) 0,
+      rgba(127, 215, 245, 0.1) 2em,
+      transparent 0,
+      transparent 1em,
+      rgba(127, 215, 245, 0.3) 0,
+      rgba(127, 215, 245, 0.2) 4em,
+      transparent 0,
+      transparent 1em,
+      rgba(192, 235, 250, 0.4) 0,
+      rgba(192, 235, 250, 0.1) 2em
+    ),
+    #fff;
+  background-blend-mode: multiply;
+}
+
+#calendar2 thead {
+  font-weight: bold;
+}
+
+#calendar2 thead tr:nth-child(1) td:nth-child(2) {
+  background-color: #3a9942;
+}
+
+#calendar2 thead tr:nth-child(1) td:nth-child(1) {
+  border-top-left-radius: 10px;
+  background-color: #9fff44;
+}
+
+#calendar2 thead tr:nth-child(1) td:nth-child(3) {
+  border-top-right-radius: 10px;
+  background-color: #9fff44;
+}
+
+#calendar2 thead tr:nth-child(1) td:nth-child(1):hover,
+#calendar2 thead tr:nth-child(1) td:nth-child(3):hover {
+  background-color: #d0fba8;
+  cursor: pointer;
+}
+
+#calendar2 thead tr td {
+  padding: 10px 0;
+}
+
+#calendar2 thead tr:last-child {
+  color: #555555;
+}
+
+#calendar2 thead tr:nth-child(1) td:nth-child(2) {
+  color: white;
+}
+
+#calendar2 thead tr:last-child td {
+  border: 1px solid #a5a5a5;
+}
+
+#calendar2 tbody td {
+  border: 1px solid #a5a5a5;
+  padding: 5px 5px;
+  color: rgb(44, 86, 122);
+}
+
+#calendar2 tbody td:nth-child(n + 6),
+#calendar2 .holiday {
+  font-weight: bolder;
+  color: #ff3131;
+}
+
+#calendar2 tbody td.today {
+  background: #ff3131;
+  color: #fff;
+}
+
+@media (max-width: 944px) and (min-width: 811px) {
+  .header-birth {
+    height: 130px;
+  }
+  .header-birth .header-p {
+    font-size: 38px;
+  }
+  #birth {
+    background-size: 800px;
+  }
+  #birth #wishes p,
+  .rightText {
+    font-size: 20px;
+  }
+  h4 {
+    font-size: 30px;
+  }
+  .container {
+    width: 750px;
+    padding-right: 0;
+  }
+  .dayBirth,
+  .nameBirth {
+    font-size: 28px;
+  }
+  .name {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 812px) and (min-width: 711px) {
+  .hicon-index,
+  .hicon-instr,
+  .hicon-arm,
+  .hicon-contacts,
+  .hicon-kody,
+  .hicon-emr,
+  .hicon-birthday,
+  .hicon-graph,
+  .hicon-telephons,
+  .hicon-upr {
+    background-size: 30px;
+    height: 30px;
+  }
+  .header-birth {
+    height: 100px;
+  }
+  .header-birth .header-p {
+    font-size: 32px;
+  }
+  #birth {
+    background-size: 700px;
+  }
+  #wishes {
+    height: 500px;
+  }
+  #birth #wishes p,
+  .rightText {
+    font-size: 18px;
+  }
+  h4 {
+    font-size: 28px;
+  }
+  .container {
+    width: 700px;
+    padding-right: 0;
+  }
+  .dayBirth,
+  .nameBirth {
+    font-size: 26px;
+  }
+  .name {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 712px) and (min-width: 611px) {
+  .hicon-index,
+  .hicon-instr,
+  .hicon-arm,
+  .hicon-contacts,
+  .hicon-kody,
+  .hicon-emr,
+  .hicon-birthday,
+  .hicon-graph,
+  .hicon-telephons,
+  .hicon-upr {
+    background-size: 30px;
+    height: 30px;
+  }
+  .header-birth {
+    height: 100px;
+  }
+  .header-birth .header-p {
+    font-size: 28px;
+  }
+  #birth {
+    background-size: 600px;
+  }
+  #wishes {
+    height: 400px;
+  }
+  #birth #wishes p,
+  .rightText {
+    font-size: 16px;
+  }
+  h4 {
+    font-size: 26px;
+  }
+  .container {
+    width: 600px;
+    padding-right: 0;
+  }
+  .dayBirth,
+  .nameBirth {
+    font-size: 22px;
+  }
+  .name {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 612px) and (min-width: 511px) {
+  .hicon-index,
+  .hicon-instr,
+  .hicon-arm,
+  .hicon-contacts,
+  .hicon-kody,
+  .hicon-emr,
+  .hicon-birthday,
+  .hicon-graph,
+  .hicon-telephons,
+  .hicon-upr {
+    background-size: 30px;
+    height: 30px;
+  }
+  .header-birth {
+    height: 80px;
+  }
+  .header-birth .header-p {
+    font-size: 26px;
+  }
+  #birth {
+    background-size: 500px;
+  }
+  #wishes {
+    height: 300px;
+  }
+  #birth #wishes p,
+  .rightText {
+    font-size: 14px;
+  }
+  h4 {
+    font-size: 22px;
+  }
+  .container {
+    width: 500px;
+    padding-right: 0;
+  }
+  .dayBirth,
+  .nameBirth {
+    font-size: 18px;
+  }
+  .name {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 512px) and (min-width: 411px) {
+  .hicon-index,
+  .hicon-instr,
+  .hicon-arm,
+  .hicon-contacts,
+  .hicon-kody,
+  .hicon-emr,
+  .hicon-birthday,
+  .hicon-graph,
+  .hicon-telephons,
+  .hicon-upr {
+    background-size: 30px;
+    height: 30px;
+  }
+  .header-birth {
+    height: 80px;
+  }
+  .header-birth .header-p {
+    font-size: 24px;
+  }
+  #birth {
+    background-size: 400px;
+  }
+  #birth #wishes p,
+  .rightText {
+    font-size: 12px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  .container {
+    width: 400px;
+    padding-right: 0;
+  }
+  .dayBirth,
+  .nameBirth {
+    font-size: 16px;
+  }
+  .name {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 412px) and (min-width: 311px) {
+  .hicon-index,
+  .hicon-instr,
+  .hicon-arm,
+  .hicon-contacts,
+  .hicon-kody,
+  .hicon-emr,
+  .hicon-birthday,
+  .hicon-graph,
+  .hicon-telephons,
+  .hicon-upr {
+    background-size: 30px;
+    height: 30px;
+  }
+  .header-birth {
+    height: 60px;
+  }
+  .header-birth .header-p {
+    font-size: 20px;
+  }
+  #birth {
+    background-size: 300px;
+  }
+  #birth #wishes p,
+  .rightText {
+    font-size: 10px;
+  }
+  h4 {
+    font-size: 18px;
+  }
+  .container {
+    width: 300px;
+    padding-right: 0;
+  }
+  .dayBirth,
+  .nameBirth {
+    font-size: 14px;
+  }
+  .name {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 312px) {
+  .hicon-index,
+  .hicon-instr,
+  .hicon-arm,
+  .hicon-contacts,
+  .hicon-kody,
+  .hicon-emr,
+  .hicon-birthday,
+  .hicon-graph,
+  .hicon-telephons,
+  .hicon-upr {
+    background-size: 30px;
+    height: 30px;
+  }
+  .header-birth {
+    height: 50px;
+  }
+  .header-birth .header-p {
+    font-size: 18px;
+  }
+  #birth {
+    background-size: 200px;
+  }
+  #birth #wishes p,
+  .rightText {
+    font-size: 10px;
+  }
+  h4 {
+    font-size: 16px;
+  }
+  .container {
+    width: 200px;
+    padding-right: 0;
+  }
+  .dayBirth,
+  .nameBirth {
+    font-size: 12px;
+  }
+  .name {
+    font-size: 10px;
+  }
+}

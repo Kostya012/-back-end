@@ -1,0 +1,388 @@
+@charset "utf-8";
+main {
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 15px 20px 20px 20px;
+}
+
+.container {
+  padding-right: 15px;
+  order: 1;
+  flex-basis: 70%;
+}
+
+.aside {
+  order: 2;
+  flex-basis: 20%;
+}
+
+main div ol {
+  background-color: #d8f5eb;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.mainli {
+  display: flex;
+  align-items: center;
+  font-family: Kelson Sans RU, Arial, Helvetica, sans-serif;
+}
+
+.hicon-main {
+  width: 45px;
+  margin-right: 15px;
+}
+
+.mainli span {
+  width: calc(100% - 50px);
+}
+
+.list-group h4 {
+  text-align: left;
+  padding-left: 10px;
+}
+
+.list-group h4 a {
+  color: wheat;
+}
+
+.list-group h4 a:hover {
+  text-decoration: underline;
+}
+
+.list-group-item {
+  font-size: 1.7em;
+  border-bottom: 2px solid silver;
+}
+
+.marginTop {
+  margin-top: 20px;
+}
+
+.label-primary {
+  font-size: 34px;
+  padding-left: 20px;
+}
+
+.list-group-item a {
+  display: block;
+  color: #4d4c4c;
+}
+
+.list-group-item:hover {
+  background-color: #9fff44;
+}
+
+.mainli,
+.list5 li a {
+  padding: 10px;
+}
+
+.new {
+  background-image: url("../img/new1.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-position-x: -4px;
+  background-position-y: -4px;
+  background-size: contain;
+  padding-left: 20px;
+}
+
+.list5 {
+  background-color: #fffff1;
+  color: #e0e0e0;
+  max-height: 0px;
+  overflow: hidden;
+  visibility: hidden;
+  opacity: 0;
+  transform-origin: 0% 0%;
+  transform: rotateX(-90deg);
+  -webkit-transition: 0.1s linear;
+  -moz-transition: 0.1s linear;
+  -o-transition: 0.1s linear;
+  -ms-transition: 0.1s linear;
+  transition: 0.1s linear;
+}
+
+.num {
+  color: white;
+  background: #2980b9;
+  display: inline-block;
+  text-align: center;
+  margin: 5px 10px;
+  line-height: 40px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.list-group-item:hover {
+  cursor: pointer;
+}
+
+.list5 li {
+  padding: 0 0 0 20px;
+  border-bottom: 1px solid #4d4c4c;
+}
+
+.list-group-item .list5 li a {
+  font-size: 0.9em;
+  color: #4d4c4c;
+}
+
+.list-group-item .list5 li:hover {
+  background-color: #4d4c4c;
+}
+
+.list5 li:hover a {
+  color: white;
+}
+
+h4 {
+  text-align: center;
+  background-color: #3a9942;
+  color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 5px 0;
+}
+
+.label {
+  font-size: 20px;
+}
+
+.aside .list-unstyled .list-group-item a {
+  font-size: 16px;
+  color: #575757;
+}
+
+.aside .list-unstyled .list-group-item:hover a {
+  color: #4d4c4c;
+}
+
+.link,
+.linkw {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.link {
+  background-image: url("../img/aside/link.svg");
+}
+
+.linkw {
+  background-image: url("../img/aside/internet_icon_25.png");
+  background-position: center;
+}
+
+@media (max-width: 987px) and (min-width: 786px) {
+  .hicon-index,
+  .hicon-instr,
+  .hicon-arm,
+  .hicon-contacts,
+  .hicon-kody,
+  .hicon-emr,
+  .hicon-birthday,
+  .hicon-graph,
+  .hicon-telephons,
+  .hicon-upr {
+    background-size: 30px;
+    height: 30px;
+  }
+  .list-group-item {
+    font-size: 1em;
+  }
+  .label-primary {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 787px) and (min-width: 555px) {
+  .nav li:hover > .submenu {
+    display: none;
+  }
+  .submenu .submenu {
+    width: 150px;
+    left: -68%;
+  }
+  .container,
+  .aside {
+    flex-basis: 100%;
+    padding: 0;
+  }
+  .num {
+    margin-right: 10px;
+    line-height: 33px;
+    width: 30px;
+    height: 30px;
+  }
+  .table {
+    font-size: 12px;
+  }
+  #search {
+    font-size: 1.1em;
+  }
+  .hicon-index,
+  .hicon-instr,
+  .hicon-arm,
+  .hicon-contacts,
+  .hicon-kody,
+  .hicon-emr,
+  .hicon-birthday,
+  .hicon-graph,
+  .hicon-telephons,
+  .hicon-upr {
+    background-size: 30px;
+    height: 30px;
+  }
+  .hicon-main {
+    width: 25px;
+  }
+  .mainli span {
+    width: calc(100% - 30px);
+  }
+  .list-group-item {
+    font-size: 1em;
+    border-bottom: 1px solid silver;
+  }
+  .label-primary {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 556px) and (min-width: 320px) {
+  .nav li:hover > .submenu {
+    display: none;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  .hicon-index,
+  .hicon-instr,
+  .hicon-arm,
+  .hicon-contacts,
+  .hicon-kody,
+  .hicon-emr,
+  .hicon-birthday,
+  .hicon-graph,
+  .hicon-telephons,
+  .hicon-upr {
+    background-size: 30px;
+    height: 30px;
+  }
+  .hicon-main {
+    width: 25px;
+  }
+  .submenu,
+  .submenu .submenu {
+    display: none;
+  }
+  .mainli,
+  .list5 li a {
+    padding: 5px;
+  }
+  .num {
+    margin-right: 10px;
+    line-height: 28px;
+    width: 25px;
+    height: 25px;
+  }
+  .container,
+  .aside {
+    flex-basis: 100%;
+    padding: 0;
+  }
+  #search {
+    font-size: 1em;
+  }
+  .table {
+    font-size: 8px;
+  }
+  td {
+    padding: 2px;
+  }
+  .mainli span {
+    width: calc(100% - 30px);
+  }
+  .list-group-item {
+    font-size: 0.8em;
+    border-bottom: 1px solid silver;
+  }
+  .label-primary {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 321px) {
+  .nav li:hover > .submenu {
+    display: none;
+  }
+  h1 {
+    font-size: 18px;
+  }
+  .hicon-index,
+  .hicon-instr,
+  .hicon-arm,
+  .hicon-contacts,
+  .hicon-kody,
+  .hicon-emr,
+  .hicon-birthday,
+  .hicon-graph,
+  .hicon-telephons,
+  .hicon-upr {
+    background-size: 30px;
+    height: 30px;
+  }
+  .hicon-main {
+    width: 25px;
+  }
+  .submenu,
+  .submenu .submenu {
+    display: none;
+  }
+  .mainli,
+  .list5 li a {
+    padding: 5px;
+  }
+  .num {
+    margin-right: 10px;
+    line-height: 28px;
+    width: 25px;
+    height: 25px;
+  }
+  .container,
+  .aside {
+    flex-basis: 100%;
+    padding: 0;
+  }
+  #search {
+    font-size: 0.9em;
+  }
+  .table {
+    font-size: 8px;
+  }
+  .mainli span {
+    width: calc(100% - 30px);
+  }
+  h2 {
+    font-size: 12px;
+    font-weight: 300;
+    padding: 5px;
+  }
+  h3 {
+    padding-right: 10px;
+    font-weight: 300;
+    width: 70px;
+  }
+  .list-group-item {
+    font-size: 0.7em;
+    border-bottom: 1px solid silver;
+  }
+  .label-primary {
+    font-size: 14px;
+  }
+}

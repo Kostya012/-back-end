@@ -1,0 +1,35 @@
+.numeric {
+  font-size: 25px;
+  line-height: normal;
+  list-style: decimal;
+  list-style-position: inside;
+}
+
+.numeric li {
+  padding: 5px 2px;
+  border-bottom: 2px solid silver;
+}
+
+label {
+  margin-bottom: 80px;
+  font-weight: bold;
+  font-family: Kelson Sans RU, Arial, Helvetica, sans-serif;
+}
+
+.links a {
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 2px 15px;
+  background-color: #3a9942;
+  margin-left: 25px;
+}
+
+.links a:hover {
+  background-color: #41ad4a;
+}
+
+.pointer:hover label {
+  font-weight: normal;
+  cursor: pointer;
+}
