@@ -1,0 +1,104 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h4 {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+input {
+  font: inherit;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #cce6fd;
+  padding: 30px 10px;
+  border-bottom: 5px solid gray;
+}
+
+header > a > img {
+  max-width: 150px;
+  margin-right: 10px;
+}
+
+.limonth,
+.outside {
+  border-bottom: 3px solid white;
+}
+
+.limonth:hover {
+  cursor: pointer;
+  background-color: #cce6fd;
+  border-bottom: 3px solid blue;
+}
+
+#seldate {
+  width: 150px;
+}
+
+.border-bottom:hover {
+  cursor: pointer;
+  background-color: #cce6fd;
+  border-bottom: 3px solid blue;
+}
+
+a {
+  text-decoration: none;
+}
+
+.but {
+  padding: 15px;
+  background-color: #0d6efd;
+  border-radius: 5px;
+}
+
+.but:hover {
+  background-color: #0a58ca;
+}
+
+body {
+  background-color: #cce6fd;
+  animation: dayTime 40s linear infinite;
+}
+
+/*ANIMATIONS*/
+@-webkit-keyframes dayTime {
+  0% {
+    background-color: #cce6fd;
+  }
+  50% {
+    background-color: #252645;
+  }
+  100% {
+    background-color: #cce6fd;
+  }
+}
+@keyframes dayTime {
+  0% {
+    background-color: #cce6fd;
+  }
+  50% {
+    background-color: #252645;
+  }
+  100% {
+    background-color: #cce6fd;
+  }
+}
